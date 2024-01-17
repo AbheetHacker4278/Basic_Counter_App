@@ -15,3 +15,7 @@ minusbtn.addEventListener('click', () => {
         displ.innerHTML = count;
     }
 });
+
+document.addEventlistner("contextmenu" , (e)=>{
+    e.preventDefault();
+} , false);
