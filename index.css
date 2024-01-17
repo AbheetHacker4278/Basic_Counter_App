@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(248, 87, 119);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    border: 2px solid black;
+    background-color: lightblue;
+}
+.plus{
+    margin: 20px;
+    background-color: cadetblue;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border:none;
+    box-shadow: 7px 6px 10px black;
+}
+.plus:hover{
+    background-color: chocolate;
+    transition: all 0.5s ease-in-out;
+}
+.minus{
+    margin:20px;
+    background-color: cadetblue;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border:none;
+    box-shadow: 7px 6px 10px black;
+}
+.minus:hover{
+    background-color: chocolate;
+    transition: all 0.5s ease-in-out;
+}
+.disp{
+    border: 2px solid black;
+    padding: 30px 30px;
+    font-weight: 400;
+    font-size: 40px;
+}
